@@ -1,7 +1,7 @@
 
 module Types
     class BreederType < Types::BaseObject
-      field :books, [Types::BookType], null: true
+      field :dogs, [Types::DogType], null: true
   
       field :id, ID, null: false
   
