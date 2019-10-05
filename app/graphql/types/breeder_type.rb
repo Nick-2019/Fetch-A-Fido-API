@@ -9,4 +9,6 @@ module Types
       field :first_name, String, null: false
       field :last_name, String, null: false
       field :authorized_on, String, null: false
+      field :can_sell, Boolean, null: false
+      
     end
