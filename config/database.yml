@@ -25,13 +25,11 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  # For details on connection pooling, see Rails configuration guide
-  # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: postgres
   password: abcdef
   # I use "abcdef" as a postgresql password for development on open projects. It's easy to type really fast and doesn't actually reveal any real passwords or password naming schemes
-  
+
 
 development:
   <<: *default
