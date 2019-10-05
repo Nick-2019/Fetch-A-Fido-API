@@ -6,9 +6,9 @@ module Types
   
       field :name, String, null: false
       field :owner_id, Integer, null: false
-      field :last_name, String, null: false
-      field :authorized_on, String, null: false
-      field :can_sell, Boolean, null: false
+      field :DOB, String, null: false
+      field :sex, String, null: false
+      field :breed, Boolean, null: false
       field :age, Integer, null: false
 
     end
